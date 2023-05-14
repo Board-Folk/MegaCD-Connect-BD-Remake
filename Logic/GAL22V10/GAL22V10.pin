@@ -1,0 +1,29 @@
+
+
+ Pin # | Name     | Pin Type
+-----------------------------
+   1   | Clock    | Clock/Input
+   2   | FDC      | Input
+   3   | ROM      | Input
+   4   | RAS2     | Input
+   5   | CAS2     | Input
+   6   | CAS0     | Input
+   7   | WR       | Input
+   8   | FRES     | Input
+   9   | NC       | Input
+  10   | NC       | Input
+  11   | NC       | Input
+  12   | GND      | GND
+  13   | NC       | Input
+  14   | NC       | NC
+  15   | NC       | NC
+  16   | O8       | Output
+  17   | /O7      | Output
+  18   | O6       | Output
+  19   | CDCAS0   | Output
+  20   | FFOE     | Output
+  21   | FFCP     | Output
+  22   | TRCE     | Output
+  23   | /TRDIR   | Output
+  24   | VCC      | VCC
+

@@ -1,0 +1,44 @@
+GAL22V10
+22V10
+
+Clock   FDC		ROM		RAS2	CAS2	CAS0	WR				FRES		NC			NC			NC			GND
+NC			NC		NC		O8		/O7		O6		CDCAS0		FFOE		FFCP		TRCE		/TRDIR	VCC
+
+
+TRDIR = CAS0
+      + ROM * FDC * O8;
+
+
+FFCP = CAS2 + CAS0
+      + O7 * RAS2
+      + O7 * !O6
+      + O8;
+
+FFOE = CAS0
+      + O8
+			+ O6 & CAS2
+			+ CAS2 * !O7
+			+ FFOE * RAS2 * O7
+			+ FFOE * !O6 * O7;
+
+TRCE = !FFOE;
+
+
+CDCAS0 = !CAS0;
+O6 = RAS2;
+O7.R = !O7 * FDC * ROM * RAS2
+			+ !O7 * FDC * ROM * CAS2 * CAS0
+			+ !RAS2 * CAS0 * CAS2;
+O8 = CAS2 * RAS2
+			+ !CAS2 * O8
+			+ !O6 * O8;
+
+DESCRIPTION
+To define the asynchronous reset and the synchronous preset you can use
+the keywords AR and SP. But this keywords can't be used as pin names.
+For AR and SP is one product term allowed.
+
+AR    = WR;
+SP    = 0;
+
+/: NEGATION

@@ -1,0 +1,86 @@
+
+(rules PCB MegaCD-Connect BD Remake
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1587)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.2)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.5)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clear 127.0)
+    (clear 100.0 (type smd_to_turn_gap))
+    (clear 31.8 (type smd-smd))
+  )
+  (padstack "Via[0-1]_400:200_um"
+    (shape
+      (circle F.Cu 400.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 400.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_400:200_um" "Via[0-1]_400:200_um" default
+  )
+  (via 
+    "Via[0-1]_400:200_um-kicad_default" "Via[0-1]_400:200_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_400:200_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_400:200_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND VCC "Net-(IC1-I1{slash}CLK)" ~{FDC} ~{ROM} ~{RAS2} ~{CAS2} ~{CAS0}
+    "Net-(IC1-I7)" FRES "unconnected-(IC1-IO8-Pad16)" "unconnected-(IC1-IO7-Pad17)" "unconnected-(IC1-IO6-Pad18)" "Net-(IC1-IO5)" "TR_OE" "TR_CP"
+    "TR_CE" "TR_DIR" /VD15 /CD15 /CD14 /VD14 /VD13 /CD13
+    /CD12 /VD12 /VD11 /CD11 /CD10 /VD10 /VD9 /CD9
+    /CD8 /VD8 /VD7 /CD7 /CD6 /VD6 /VD5 /CD5
+    /CD4 /VD4 /VD3 /CD3 /CD2 /VD2 /VD1 /CD1
+    /CD0 /VD0 ~{ASEL} ~{CDCAS0} ~{UWR} ~{LWR} "unconnected-(J1-Pin_a2-Pada2)" /VA1
+    /VA2 /VA3 /VA4 /VA5 /VA6 /VA7 /VA8 /VA9
+    /VA10 /VA11 /VA12 /VA13 /VA14 /VA15 /VA16 /VA17
+    ~{FDWR} "unconnected-(J1-Pin_b25-Padb25)" "unconnected-(J1-Pin_a27-Pada27)" "unconnected-(J1-Pin_b27-Padb27)" +9V SR2 SL2 "unconnected-(J2-Pin_a2-Pada2)"
+    ~{CDRAS2} "unconnected-(J2-Pin_b25-Padb25)" "unconnected-(J2-Pin_a27-Pada27)" "unconnected-(J2-Pin_b27-Padb27)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
