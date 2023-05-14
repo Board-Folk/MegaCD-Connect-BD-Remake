@@ -14,4 +14,5 @@ Once GALasm is compiled use the following command to compile the Logic into a Je
 galasm ./GAL22V10.pld
 
 
-With thanks to @faiold for decoding the logic of the Peel IC
+With thanks to @fabiodl for decoding the logic of the Peel IC
+https://github.com/fabiodl/peelDecoder
