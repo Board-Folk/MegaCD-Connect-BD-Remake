@@ -3,6 +3,8 @@
 
 It is to replace the 837-8327-01 IC BD MEGA-CD CONNECT BD with a failed ASIC to the older Logic version of the board that has the Peel IC.
 
+The board is not a clone, rather a remake as i do not have access to an original logic board version to do an exact replica of traces.
+
 ** UNTESTED **
 
 ( PCB's have been ordered, will update with results )
