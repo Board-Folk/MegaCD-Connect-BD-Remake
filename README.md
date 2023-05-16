@@ -2,6 +2,7 @@
  This is the Schematics, PCB and Logic for the Mega-CD Connect BD.
 
 ** UNTESTED **
+( PCB's have been ordered, will update results )
 
 It is to replace the 837-8327-01 IC BD MEGA-CD CONNECT BD with a failed ASIC to the older Logic version of the board that has the Peel IC.
 
