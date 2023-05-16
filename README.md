@@ -7,12 +7,13 @@ It is to replace the 837-8327-01 IC BD MEGA-CD CONNECT BD with a failed ASIC to 
 
 ( PCB's have been ordered, will update with results )
 
-The Gerbers have been created using the recommendations from JLCPCB.
+* The Gerbers have been created using the recommendations from JLCPCB.
 
-This board uses a GAL22V10 to achieve the same logic functions as the Peel IC. Jed file is provided.
+* This board uses a GAL22V10 to achieve the same logic functions as the Peel IC. Jed file is provided. 
+  Use a MiniPro to write the Jed file to the GAL Chip.
 
 
-## Compiling the Logic
+### Compiling the Logic
 
 The software i used to make the Jed file was GALasm. It can be downloaded from here https://github.com/daveho/GALasm
 
@@ -24,12 +25,12 @@ Once GALasm is compiled, use the following command to compile the Logic into a J
 galasm ./GAL22V10.pld
 ```
 
-## Thanks to
+### Thanks to
 
 With thanks to @fabiodl for decoding the logic of the Peel IC
 https://github.com/fabiodl/peelDecoder
 
 
-## !!!!! WARNING !!!!!
+### !!!!! WARNING !!!!!
 
 Use at your own risk. I accept no responsibility if this damages any of your equipment.
