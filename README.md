@@ -36,6 +36,12 @@ galasm ./GAL22V10.pld
 
 https://github.com/fabiodl/peelDecoder
 
+#### Other Resources
+
+* https://circuit-board.de/forum/index.php/Thread/25582-SEGA-MEGA-CD-1-Reparatur-PEEL-18CV8-PLD-auslesen/
+
+* https://www.eevblog.com/forum/projects/help-with-reverse-engineering-unexpected-behavior-of-peel18cv8-223204/
+
 
 ### !!!!! WARNING !!!!!
 
