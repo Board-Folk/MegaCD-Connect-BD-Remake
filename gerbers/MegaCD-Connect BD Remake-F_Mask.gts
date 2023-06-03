@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,7.0.1-0*
-G04 #@! TF.CreationDate,2023-05-14T20:02:35+01:00*
+G04 #@! TF.CreationDate,2023-06-03T13:44:20+01:00*
 G04 #@! TF.ProjectId,MegaCD-Connect BD Remake,4d656761-4344-42d4-936f-6e6e65637420,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.1-0) date 2023-05-14 20:02:35*
+G04 Created by KiCad (PCBNEW 7.0.1-0) date 2023-06-03 13:44:20*
 %MOMM*%
 %LPD*%
 G01*

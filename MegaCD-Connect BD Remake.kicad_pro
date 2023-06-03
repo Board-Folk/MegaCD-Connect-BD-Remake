@@ -490,11 +490,11 @@
     ]
   ],
   "text_variables": {
-    "DATE": "05/2023",
+    "DATE": "06/2023",
     "PCB_TITLE_1": "MegaCD",
     "PCB_TITLE_2": "Connect BD Remake",
     "PCB_TITLE_3": "Chrissy @chris_jh",
     "PCB_TITLE_4": "Board Folk Team",
-    "VERSION": "v2.0"
+    "VERSION": "v2.1"
   }
 }
