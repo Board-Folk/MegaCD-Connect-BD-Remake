@@ -9,10 +9,16 @@ The board is not a clone, rather a remake as i do not have access to an original
 
 * The Gerbers have been created using the recommendations from JLCPCB.
 
-* This board uses a GAL22V10 to achieve the same logic functions as the Peel IC. Jed file is provided. 
+* This board uses a GAL22V10 to achieve the same logic functions as the Peel IC. Jed file is provided.
   Use a MiniPro to write the Jed file to the GAL Chip.
 
-Note:- TESTED V2.0 and this worked, but now made V2.1 and is UNTESTED
+Note:- TESTED V2.0 and this worked, but now made V2.2 and is UNTESTED
+
+Version 2.2 Changes:-
+
+* Moved traces around the middle screw holes, just incase screw heads sub against the silkscreen removing it and causing a short against the 5v rail.
+
+* Moved the IC1 Silk name slightly up.
 
 Version 2.1 Changes:-
 
@@ -68,7 +74,7 @@ If you use a Pin Header, you will need to bend it slighly inwards otherwise it w
 | RN1, RN2  | 9X-1-472LF (4.7K)   | 2        | 4609X-101-472LF-ND |
 | J1, J2    | CONN EDGE DF 60POS  | 2        | A112392-ND         |
 | J3        | 2 Pin Header 2.54mm | 1        | 609-4434-ND        |
- 
+
 [**Interactive BOM**][IBOM]
 
 ## Thanks
