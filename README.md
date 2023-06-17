@@ -29,7 +29,7 @@ Version 2.1 Changes:-
 
 * Moved /TRDIR from PIN 23 to PIN 15, This should make it compatible with the GAL20V8
 
-* Added GAL20V8 Logic
+* Added GAL20V8 Logic, but does not work.
 
 * Updated Labels for Tree House Connection, TH1 and TH2
 
