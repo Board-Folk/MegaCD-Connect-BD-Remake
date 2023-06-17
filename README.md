@@ -12,7 +12,7 @@ The board is not a clone, rather a remake as i do not have access to an original
 * This board uses a GAL22V10 to achieve the same logic functions as the Peel IC. Jed file is provided.
   Use a MiniPro to write the Jed file to the GAL Chip.
 
-Note:- 
+Notes:- 
 
  * TESTED V2.0 and this worked, but now made V2.2 and is UNTESTED
    
