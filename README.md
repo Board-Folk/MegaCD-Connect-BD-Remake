@@ -14,6 +14,8 @@ The board is not a clone, rather a remake as i do not have access to an original
 
 Notes:- 
 
+ * I have used an ATF22V10B-15PC as a replacement for the GAL22V10. The ATF Works, but i also see this is obsolete. There is ATF22V10C range of chips, but stock seems to be low on these.
+
  * TESTED V2.0 and this worked, but now made V2.2 and is UNTESTED
    
  * Finally got some GAL20v8 Chips, and they do not work. Think this is a timing issue. So please use the GAL22v10's instead, unless someone wants to take a stab at getting the GAL20v8's to work. (Looks at Steve)
