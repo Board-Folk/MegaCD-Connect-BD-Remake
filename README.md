@@ -74,7 +74,7 @@ If you use a Pin Header, you will need to bend it slighly inwards otherwise it w
 | Reference | Value                       | Quantity | DigiKey            | Mouser               |
 |-----------|-----------------------------|----------|--------------------|----------------------|
 | C1 - C6   | 100nf                       | 6        | CL31B104KBCNNNC    | 187-CL31B104KBCNNNC  |
-| IC1       | GAL22V10B-15 / AF22V10C15PU | 1        |                    | 556-AF22V10C15PU     |
+| IC1       | GAL22V10B-15 / ATF22V10B-15 | 1        |                    | 556-AF22V10C15PU     |
 | IC2, IC3  | 74HC374                     | 2        | 296-1592-5-ND      | 595-SN74HC374N       |
 | IC4       | 74ACT10                     | 1        | CD74ACT10E-ND      | 595-CD74ACT10E       |
 | IC5, IC6  | 74HC245                     | 2        | 296-1584-5-ND      | 595-SN74HC245N       |
