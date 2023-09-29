@@ -71,16 +71,16 @@ If you use a Pin Header, you will need to bend it slighly inwards otherwise it w
 
 ---
 
-| Reference | Value               | Quantity | DigiKey            |
-|-----------|---------------------|----------|--------------------|
-| C1 - C6   | 100nf               | 6        | CL31B104KBCNNNC    |
-| IC1       | GAL22V10B           | 1        |                    |
-| IC2, IC3  | 74HC374             | 2        | 296-1592-5-ND      |
-| IC4       | 74ACT10             | 1        | CD74ACT10E-ND      |
-| IC5, IC6  | 74HC245             | 2        | 296-1584-5-ND      |
-| RN1, RN2  | 9X-1-472LF (4.7K)   | 2        | 4609X-101-472LF-ND |
-| J1, J2    | CONN EDGE DF 60POS  | 2        | A112392-ND         |
-| J3        | 2 Pin Header 2.54mm | 1        | 609-4434-ND        |
+| Reference | Value                       | Quantity | DigiKey            | Mouser               |
+|-----------|-----------------------------|----------|--------------------|----------------------|
+| C1 - C6   | 100nf                       | 6        | CL31B104KBCNNNC    | 187-CL31B104KBCNNNC  |
+| IC1       | GAL22V10B-15 / AF22V10C15PU | 1        |                    | 556-AF22V10C15PU     |
+| IC2, IC3  | 74HC374                     | 2        | 296-1592-5-ND      | 595-SN74HC374N       |
+| IC4       | 74ACT10                     | 1        | CD74ACT10E-ND      | 595-CD74ACT10E       |
+| IC5, IC6  | 74HC245                     | 2        | 296-1584-5-ND      | 595-SN74HC245N       |
+| RN1, RN2  | 9X-1-472LF (4.7K)           | 2        | 4609X-101-472LF-ND | 652-4609X-1LF-4.7K   |
+| J1, J2    | CONN EDGE DF 60POS          | 2        | A112392-ND         | 571-1-5530841-8      |
+| J3        | 2 Pin Header 2.54mm         | 1        | 609-4434-ND        | 649-77311-118-02LF   |
 
 [**Interactive BOM**][IBOM]
 
