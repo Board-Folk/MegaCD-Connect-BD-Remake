@@ -20,6 +20,13 @@ Notes:-
    
  * Finally got some GAL20v8 Chips, and they do not work. Think this is a timing issue. So please use the GAL22v10's instead, unless someone wants to take a stab at getting the GAL20v8's to work. (Looks at Steve)
 
+Version 2.3 Changes:-
+
+Updates to Kicad v9, Changed A26/B26 on the CD Expansion to point to 9v, and not 5v. Made no difference with the older version, but made it now match the original PCB.
+
+Added new Logic version, because GALasm was updated and was giving a different compiled version that does not work. Found what i needed to change to make it work.
+
+You can use either Pre-Compiled Jed Files, for the GAL22v10 / ATF22V10
 
 Version 2.2 Changes:-
 
